@@ -1,0 +1,2 @@
+from .crf_bert_model_for_token_classification import CRFBertModelForTokenClassification
+__all__=["CRFBertModelForTokenClassification"]

@@ -1,0 +1,8 @@
+name: prodigy
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.7
+  - pip
+  - spacy==2.3.5

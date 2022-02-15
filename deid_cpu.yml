@@ -1,0 +1,36 @@
+name: deid_cpu
+channels:
+  - conda-forge
+  - pytorch
+  - anaconda
+  - huggingface
+  - stanfordnlp
+dependencies:
+  - python=3.7
+  - pip
+  - pytorch::pytorch==1.10.0
+  - transformers==4.11.3
+  - tensorflow==2.8.0
+  - numpy==1.22.1
+  - scipy==1.8.0
+  - pandas==1.4.0
+  - scikit-learn==1.0.2
+  - jupyterlab==3.2.9
+  - ipywidgets==7.6.5
+  - matplotlib==3.5.1
+  - beautifulsoup4==4.10.0
+  - spacy==3.0.7
+  - nodejs==0.1.1
+  - nltk
+  - stanza==1.2
+  - pip:
+      - tensorflow-addons==0.15.0
+      - wget==3.2
+      - seqeval
+      - scispacy==0.4.0
+      - datasets==1.9.0
+      - pytorch-crf
+      - allennlp==2.9.0
+      - pycorenlp==0.3.0
+     # - https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_sm-0.4.0.tar.gz
+     # - https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.4.0/en_core_sci_lg-0.4.0.tar.gz
