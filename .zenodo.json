@@ -4,7 +4,9 @@
     "license": "MIT", 
     "creators": [
         {
-            "name": "Prajwal Kailas"
+            "name": "Prajwal Kailas",
+            "affiliation": "Brigham and Women's Hospital",
+            "orcid": "0000-0003-1929-2421"
         },
         {
             "name": "Shinichi Goto",
@@ -17,10 +19,14 @@
             "orcid": "0000-0001-7240-0028"
         },
         {
-            "name": "Calum A MacRae"
+            "name": "Calum A MacRae",
+            "affiliation": "Brigham and Women's Hospital",
+            "orcid": "0000-0001-5181-2664"
         },
         {    
-            "name": "Rahul C Deo"
+            "name": "Rahul C Deo",
+            "affiliation": "Brigham and Women's Hospital",
+            "orcid": "0000-0002-2791-9434"
         }
 
     ]
