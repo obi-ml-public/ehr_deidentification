@@ -1,5 +1,9 @@
 # Robust DeID: De-Identification of Medical Notes using Transformer Architectures
 
+[![DOI](https://zenodo.org/badge/458346577.svg)](https://zenodo.org/badge/latestdoi/458346577)
+
+
+
 This repository was used to train and evaluate various de-identification models and strategies on medical notes from the I2B2-DEID dataset and the MassGeneralBrigham (MGB) network.
 The models and strategies are extensible and can be used on other datasets as well. Trained models are published on huggingface under the [OBI organization](https://huggingface.co/obi).
 
