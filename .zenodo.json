@@ -1,33 +1,27 @@
-{ "creators": [
+{
+    "title": "obi-ml-public/ehr_deidentification",
+    "description": "Robust de-identification of medical notes using transformer architectures", 
+    "license": "MIT", 
+    "creators": [
         {
-            "name": "Kailas, Prajwal",
-            "affiliation": "Brigham and Women's Hospital",
+            "name": "Prajwal Kailas"
         },
         {
-            "name": "Goto, Shinichi",
+            "name": "Shinichi Goto",
             "affiliation": "Brigham and Women's Hospital",
             "orcid": "0000-0002-0450-0331"
         },
         {
-            "name": "Homilius, Max",
-            "affiliation": "Brigham and Women's Hospital",
+            "name": "Max Homilius",
+            "affiliation": "One Brave Idea | BWH | HMS",
             "orcid": "0000-0001-7240-0028"
         },
         {
-            "name": "MacRae, Calum A",
-            "affiliation": "Brigham and Women's Hospital",
-            "orcid": "0000-0001-5181-2664"
+            "name": "Calum A MacRae"
         },
         {    
-            "name": "Deo, Rahul C",
-            "affiliation": "Brigham and Women's Hospital",
-            "orcid": "0000-0002-2791-9434"
-        },
-    ],
+            "name": "Rahul C Deo"
+        }
 
-    "description": "Robust de-identification of medical notes using transformer architectures, sentence context and recall thresholding.",
-    "license": {
-        "id": "MIT"
-    },
-    "title": "Robust EHR de-identification"
+    ]
 }
