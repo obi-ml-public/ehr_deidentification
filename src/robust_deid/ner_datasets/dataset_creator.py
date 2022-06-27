@@ -118,6 +118,11 @@ class DatasetCreator(object):
             note = json.loads(line)
             note_text = note[token_text_key]
             note_id = note[metadata_key][note_id_key]
+            
+            # Skip to next note if empty string
+            if not note_text:
+                continue
+            
             if mode == 'train':
                 note_spans = note[span_text_key]
             # No spans in predict mode
